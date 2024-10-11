@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock/Paper/Scissor game</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock Paper Scissor game :</h1>
+      <!-- box contain all choice -->
+      <div class="container-1">
+        <div class="choices">
+          <!-- contain 1st choice  -->
+          <div class="choice" id="rock">
+            <img src="rock.jpg" />
+          </div>
+          <!-- conatin 2nd choice  -->
+          <div class="choice" id="paper">
+            <img src="paper.jpeg" />
+          </div>
+          <!-- contain 3rd choice  -->
+          <div class="choice" id="scissor">
+            <img src="scissor.jpg" />
+          </div>
+        </div>
+        <!-- contain scores  -->
+        <div class="score-board">
+          <!-- contain user score  -->
+          <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+          </div>
+          <!-- contain computer score  -->
+          <div class="score">
+            <p id="computer-score">0</p>
+            <p>Computer</p>
+          </div>
+        </div>
+      </div>
+      <!-- contain the [p] msg will be appeard in  -->
+      <div class="msg-container">
+        <p id="msg">Play your move</p>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
