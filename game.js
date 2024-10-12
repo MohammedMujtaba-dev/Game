@@ -25,7 +25,7 @@ let gencompchoice = () => {
 // taking vlaue of both user and comp
 let drawgame = (userchoice, compchoice) => {
   console.log("Game was draw");
-  msg.innerText = `You draw , play again ! ${userchoice} can't beat ${compchoice}`;
+  msg.innerText = `Game draw , play again ! ${userchoice} can't beat ${compchoice}`;
   msgcontainer.style.backgroundColor = "#081b31";
 };
 
